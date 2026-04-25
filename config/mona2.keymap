@@ -110,8 +110,8 @@
         layer_1 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp JP_LBRACKET  &kp JP_RBRACKET  &trans        &trans    &trans  &trans        &kp JP_LPAREN  &kp JP_RPAREN     &trans        &kp JP_YEN
-&trans        &trans        &kp JP_LBRACE    &kp JP_RBRACE    &trans        &trans    &trans  &trans        &kt LESS_THAN  &kt GREATER_THAN  &trans        &kp JP_PIPE
+&trans        &kp JP_LBRACKET  &kp JP_RBRACKET          &kp JP_LBRACE    &kp JP_RBRACE    &trans  &trans        &kp JP_LPAREN  &kp JP_RPAREN    &kt LESS_THAN  &kt GREATER_THAN   &kp JP_YEN
+&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans    &kp JP_PIPE
 &trans        &trans        &trans           &trans           &trans        &trans    &trans  &trans                                                       &trans
             >;
 
@@ -121,7 +121,7 @@
         layer_2 {
             bindings = <
 &kp EXCLAMATION   &kp JP_AT     &kp POUND      &kp DOLLAR     &kp PERCENT                     &kp JP_CARET  &kp JP_AMPERSAND  &kp JP_ASTERISK  &kp JP_MINUS  &kp JP_UNDERSCORE
-&kp JP_BACKQUOTE  &kp JP_TILDE  &kp JP_DQUOTE  &kp JP_DQUOTE  &kp QUESTION  &trans    &trans  &mkp MB3      &mkp MB1          &mkp MB2         &kp JP_EQUAL  &kp JP_EQUAL
+&kp JP_BACKQUOTE  &kp JP_TILDE  &kp JP_DQUOTE  &kp JP_QUOTE   &kp QUESTION  &trans    &trans  &mkp MB3      &mkp MB1          &mkp MB2         &kp JP_EQUAL  &kp JP_PLUS
 &kp F1            &kp F2        &kp F3         &kp F4         &kp F5        &kp F6    &kp F7  &kp F8        &kp F9            &kp F10          &kp F11       &kp F12
 &trans            &trans        &trans         &trans         &trans        &trans    &trans  &trans                                                         &trans
             >;
