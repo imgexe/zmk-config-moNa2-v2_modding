@@ -27,8 +27,8 @@ layers:
   - [C]
   - [V]
   - [B]
-  - [F14]
-  - [F15]
+  - - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
   - [N]
   - [M]
   - [',']
