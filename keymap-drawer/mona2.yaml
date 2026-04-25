@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ']'
-  - ']'
+  - '&kpJP_LBRACKET'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,8 +75,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: <, h: toggle}
+  - {t: '>', h: toggle}
   - {t: ▽, type: trans}
   - Sft+0x89
   - {t: ▽, type: trans}
