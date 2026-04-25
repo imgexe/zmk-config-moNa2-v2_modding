@@ -1,6 +1,7 @@
 // OS設定を日本語キーボードのまま使用するための変換定義
 
 #define JP_DQUOTE       AT                // "
+#define JP_MINUS        MINUS             // -
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
 #define JP_EQUAL        UNDER             // =
@@ -114,7 +115,7 @@
         layer_1 {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4    &kp NUMBER_5                    &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0
-&trans        &trans        &kp JP_LBRACKET  &kpJP_LBRACKET  &trans        &trans    &trans  &trans        &kp JP_LPAREN  &kp JP_RPAREN     &trans        &kp JP_YEN
+&trans        &trans        &kp JP_LBRACKET  &kp JP_LBRACKET  &trans        &trans    &trans  &trans        &kp JP_LPAREN  &kp JP_RPAREN     &trans        &kp JP_YEN
 &trans        &trans        &kp JP_LBRACE    &kp JP_RBRACE   &trans        &trans    &trans  &trans        &kt LESS_THAN  &kt GREATER_THAN  &trans        &kp JP_PIPE
 &trans        &trans        &trans           &trans          &trans        &trans    &trans  &trans                                                       &trans
             >;
@@ -124,8 +125,8 @@
 
         layer_2 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp MINUS  &kp UNDERSCORE
-&kp GRAVE        &kp TILDE    &kp DOUBLE_QUOTES  &kp SQT     &trans       &trans     &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp EQUAL  &kp PLUS
+&kp EXCLAMATION  &kp JP_AT   &kp POUND          &kp DOLLAR  &kp PERCENT                      &kp JP_CARET   &kp JP_AMPERSAND  &kp JP_ASTERISK  &kp JP_MINUS  &kp JP_UNDERSCORE
+&kp JP_BACKQUOTE        &kp JP_TILDE    &kp JP_DQUOTE   &kp JP_DQUOTE      &trans       &trans     &trans   &mkp MB3   &mkp MB1       &mkp MB2      &kp JP_EQUAL  JP_EQUAL
 &kp F1           &kp F2       &kp F3             &kp F4      &kp F5       &kp F11    &kp F12  &kp F6     &kp F7         &kp F8        &kp F9     &kp F10
 &trans           &trans       &trans             &trans      &trans       &trans     &trans   &trans                                             &trans
             >;
