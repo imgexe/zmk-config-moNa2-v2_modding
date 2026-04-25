@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - ''
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - N
   - M
@@ -39,11 +39,11 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - BACKSPACE
-  - {t: ENTER, h: '2'}
-  - {t: '&to_layer_0 LANG2', h: '3'}
-  - {t: '&to_layer_0 LANG1', h: '3'}
-  - {t: SPACE, h: '1'}
-  - {t: B, h: LEFT SHIFT}
+  - {t: SPACE, h: '2'}
+  - '&lt_to_layer_0 3'
+  - {t: '&to_layer_0 DELETE', h: '3'}
+  - {t: ENTER, h: '1'}
+  - {t: '`', h: LEFT SHIFT}
   '1':
   - '1'
   - '2'
@@ -57,28 +57,28 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
   - ']'
+  - '&kpJP_LBRACKET'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '*'
   - (
-  - )
   - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
+  - '0x89'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '}'
   - '|'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+0x89
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,8 +172,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '4':
