@@ -56,27 +56,27 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - ']'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '*'
-  - (
-  - {t: ▽, type: trans}
-  - '0x89'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '}'
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '*'
+  - (
   - {t: <, h: toggle}
   - {t: '>', h: toggle}
+  - '0x89'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+0x89
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - '{'
   - +
   - '@'
-  - '@'
+  - '&'
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - _
-  - _
+  - ':'
   - F1
   - F2
   - F3
