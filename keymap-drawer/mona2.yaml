@@ -41,7 +41,7 @@ layers:
   - BACKSPACE
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 DELETE', h: '3'}
-  - {t: '&to_layer_0 ESC', h: '3'}
+  - {t: '&to_layer_0 ESCAPE', h: '3'}
   - {t: ENTER, h: '1'}
   - {t: '`', h: LEFT SHIFT}
   '1':
