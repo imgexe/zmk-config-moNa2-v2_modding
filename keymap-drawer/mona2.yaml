@@ -45,43 +45,43 @@ layers:
   - {t: ENTER, h: '1'}
   - {t: '`', h: LEFT SHIFT}
   '1':
+  - ESCAPE
   - '1'
   - '2'
   - '3'
+  - +
+  - '6'
+  - F1
+  - F2
+  - F3
+  - F4
+  - TAB
   - '4'
   - '5'
   - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - ']'
-  - \
-  - '}'
-  - '|'
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '*'
-  - (
-  - {t: <, h: toggle}
-  - {t: '>', h: toggle}
-  - '0x89'
+  - F5
+  - {t: F6, h: toggle}
+  - {t: F7, h: toggle}
+  - F8
+  - CAPS
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+0x89
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,8 +118,8 @@ layers:
   - F5
   - F6
   - F7
-  - F8
-  - F9
+  - (
+  - )
   - F10
   - F11
   - F12
