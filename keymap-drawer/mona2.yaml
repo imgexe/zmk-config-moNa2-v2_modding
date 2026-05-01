@@ -134,14 +134,14 @@ layers:
   - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - HOME
   - UP ARROW
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
