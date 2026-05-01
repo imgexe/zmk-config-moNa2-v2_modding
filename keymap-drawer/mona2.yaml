@@ -50,7 +50,7 @@ layers:
   - '2'
   - '3'
   - +
-  - '6'
+  - KP MULTIPLY
   - F1
   - F2
   - F3
@@ -62,7 +62,7 @@ layers:
   - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
+  - /
   - F5
   - {t: F6, h: toggle}
   - {t: F7, h: toggle}
@@ -74,7 +74,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '%'
   - F9
   - F10
   - F11
