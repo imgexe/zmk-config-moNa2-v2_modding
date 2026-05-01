@@ -38,11 +38,11 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - BACKSPACE
+  - {t: ESCAPE, h: '4'}
   - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 DELETE', h: '3'}
-  - {t: '&to_layer_0 ESCAPE', h: '3'}
+  - {t: DELETE, h: '3'}
   - {t: ENTER, h: '1'}
+  - BACKSPACE
   - {t: '`', h: LEFT SHIFT}
   '1':
   - ESCAPE
@@ -85,8 +85,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '2':
   - '!'
@@ -214,10 +214,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
