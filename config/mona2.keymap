@@ -175,7 +175,7 @@
 &trans  &trans  &kp HOME        &kp UP_ARROW    &kp END                                        &kp LC(LS(TAB))      &kp PRINTSCREEN         &kp LC(TAB)              &trans  &trans
 &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans  &trans
 &trans  &trans  &kp DELETE      &kp PAGE_UP     &kp PAGE_DOWN    &trans    &trans              &kp LEFT_SHIFT       &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans    &trans              &trans                                                                        &kp A
+&trans  &trans  &trans          &trans          &trans           &trans    &trans              &trans                                                                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
