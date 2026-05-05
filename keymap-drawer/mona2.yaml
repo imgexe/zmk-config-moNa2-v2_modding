@@ -17,7 +17,7 @@ layers:
   - F
   - G
   - '&mkp MB3'
-  - {t: ▽, type: trans}
+  - ':'
   - H
   - J
   - K
@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - ':'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - N
   - M
