@@ -105,10 +105,10 @@ layers:
   - '&'
   - '?'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LIGHT BRACE
+  - '}'
   - (
   - )
-  - {t: ▽, type: trans}
   - _
   - ':'
   - {t: ▽, type: trans}
@@ -118,9 +118,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ']'
   - \
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
