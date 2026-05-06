@@ -67,7 +67,7 @@ layers:
   - {t: F6, h: toggle}
   - {t: F7, h: toggle}
   - F8
-  - {t: ▽, type: trans}
+  - '0'
   - '7'
   - '8'
   - '9'
@@ -81,7 +81,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
