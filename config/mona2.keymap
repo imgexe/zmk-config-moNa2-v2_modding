@@ -162,8 +162,8 @@
         layer_2 {
             bindings = <
 &kp EXCLAMATION   &kp JP_AT     &kp POUND      &kp DOLLAR    &kp PERCENT                     &kp JP_CARET          &kp JP_AMPERSAND       &kp JP_ASTERISK  &kp JP_MINUS  &kp JP_UNDERSCORE
-&kp JP_BACKQUOTE  &kp JP_TILDE  &kp JP_DQUOTE  &kp JP_QUOTE  &kp QUESTION  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS &trans         &kp JP_EQUAL  &kp JP_PLUS
-&trans            &trans        &trans         &trans        &trans        &trans    &trans  &kp JP_LBRACKET  &kp JP_RBRACKET &trans    &trans  &trans 
+&kp JP_BACKQUOTE  &kp JP_TILDE  &kp JP_DQUOTE  &kp JP_QUOTE  &kp QUESTION  &trans   &kp LIGHT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS          &kp JP_EQUAL  &kp JP_PLUS
+&trans            &trans        &trans         &trans        &trans        &trans    &trans &trans  &kp JP_LBRACKET  &kp JP_RBRACKET &trans    &trans
 &trans            &trans        &trans         &trans        &trans        &trans    &trans  &trans                                                                      &trans
             >;
 
