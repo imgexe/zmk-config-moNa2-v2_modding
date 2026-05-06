@@ -52,7 +52,7 @@
         compatible = "zmk,combos";
 
         layer4_ESC {
-            bindings = <&lt 4 ESC>;
+            bindings = <&lt 7 ESC>;
             key-positions = <39 40>;
         };
 
@@ -172,10 +172,10 @@
 
         layer_3 {
             bindings = <
-&kp HOME &trans         &kp UP_ARROW      &trans &kp PAGE_UP                    &trans    &kp LC(LS(TAB))      &kp PRINTSCREEN         &kp LC(TAB)                &trans
-&kp END &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp PAGE_DOWN   &bootloader       &trans      &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)&kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR &bt BT_CLR_ALL     &trans            &kp LEFT_SHIFT       &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans
-&trans  &trans  &trans          &trans          &trans           &trans    &trans              &trans                                                                        &trans
+&kp HOME      &trans          &kp UP_ARROW    &trans           &kp PAGE_UP                                   &trans              &kp LC(LS(TAB))      &kp PRINTSCREEN         &kp LC(TAB)              &trans
+&kp END       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &bootloader    &trans          &kp LG(LEFT_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(LG(LEFT_ARROW))  &kp LC(LG(RIGHT_ARROW))  &trans
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3     &bt BT_SEL 4   &bt BT_CLR     &bt BT_CLR_ALL  &trans              &kp LEFT_SHIFT       &kp LG(LS(LEFT_ARROW))  &kp LG(LS(RIGHT_ARROW))  &trans
+&trans        &trans          &trans          &trans           &trans         &trans         &trans          &trans                                                                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -183,10 +183,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans    &trans    &trans    &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -212,6 +212,15 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+            >;
         };
     };
 };
