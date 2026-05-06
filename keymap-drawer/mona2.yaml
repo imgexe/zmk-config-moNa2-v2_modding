@@ -133,35 +133,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
+  - {t: ▽, type: trans}
   - HOME
-  - {t: ▽, type: trans}
   - UP ARROW
+  - END
   - {t: ▽, type: trans}
-  - PAGE UP
   - {t: ▽, type: trans}
   - Ctl+Sft+TAB
   - PRINTSCREEN
   - Ctl+TAB
   - {t: ▽, type: trans}
-  - END
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - PAGE DOWN
-  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - Gui+RIGHT ARROW
   - Ctl+Gui+LEFT ARROW
   - Ctl+Gui+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - BT CLR
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
@@ -314,6 +314,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -330,19 +342,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,7 +351,7 @@ layers:
   - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
 combos:
 - p: [39, 40]
   k: {t: ESC, h: '7'}
