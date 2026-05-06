@@ -105,8 +105,8 @@ layers:
   - '&'
   - '?'
   - {t: ▽, type: trans}
-  - LIGHT BRACE
   - '}'
+  - '|'
   - (
   - )
   - _
