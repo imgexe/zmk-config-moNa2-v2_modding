@@ -45,7 +45,7 @@ layers:
   - BACKSPACE
   - {t: '`', h: LEFT SHIFT}
   '1':
-  - ESCAPE
+  - .
   - '1'
   - '2'
   - '3'
@@ -55,7 +55,7 @@ layers:
   - F2
   - F3
   - F4
-  - TAB
+  - .
   - '4'
   - '5'
   - '6'
@@ -67,7 +67,7 @@ layers:
   - {t: F6, h: toggle}
   - {t: F7, h: toggle}
   - F8
-  - CAPS
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -172,7 +172,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: EP ON, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -348,7 +348,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BT CLR ALL, type: held}
+  - {type: held}
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
