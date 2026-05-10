@@ -121,8 +121,8 @@ layers:
   - '>'
   - ']'
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+0x89
+  - '0x89'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
