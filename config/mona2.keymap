@@ -150,9 +150,9 @@
 
         layer_1 {
             bindings = <
-&kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_PLUS                     &kp KP_MULTIPLY  &kp F1  &kp F2   &kp F3   &kp F4
+&kp DOT       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_PLUS                     &kp KP_MULTIPLY  &kp F1  &kp F2   &kp F3   &kp F4
 &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp JP_MINUS  &trans    &trans  &kp SLASH        &kp F5  &kt F6   &kt F7   &kp F8
-&kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_EQUAL  &trans    &trans  &kp PERCENT      &kp F9  &kp F10  &kp F11  &kp F12
+&kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp JP_EQUAL  &trans    &trans  &kp PERCENT      &kp F9  &kp F10  &kp F11  &kp F12
 &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans                                     &trans
             >;
 
